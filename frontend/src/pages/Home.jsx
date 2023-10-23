@@ -10,8 +10,6 @@ const Home = () => {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  console.log(books);
-
   useEffect(() => {
     setLoading(true);
     axios
